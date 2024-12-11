@@ -9,11 +9,19 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "Page1",
+      "id": "CLIENTE",
       "isDefault": true
     },
     {
-      "id": "Autor",
+      "id": "AUTOR",
+      "isDefault": false
+    },
+    {
+      "id": "LIVRO",
+      "isDefault": false
+    },
+    {
+      "id": "EMPRESTIMOS E DEVOLUÇÕES",
       "isDefault": false
     }
   ],

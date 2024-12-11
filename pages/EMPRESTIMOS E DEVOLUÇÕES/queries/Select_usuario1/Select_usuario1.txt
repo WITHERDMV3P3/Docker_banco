@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  usuario
+ORDER BY
+  {{Table4.sortOrder.column || 'id'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table4.pageSize}}
+OFFSET
+  {{Table4.pageOffset}}

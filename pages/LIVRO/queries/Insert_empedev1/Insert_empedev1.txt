@@ -1,0 +1,1 @@
+INSERT INTO empedev (usuario,livro,dataemprestimo,dataprevisao,datadevolucao) VALUES ('{{(Table3.newRow || {}).usuario}}','{{(Table3.newRow || {}).livro}}','{{(Table3.newRow || {}).dataemprestimo}}','{{(Table3.newRow || {}).dataprevisao}}','{{(Table3.newRow || {}).datadevolucao}}')

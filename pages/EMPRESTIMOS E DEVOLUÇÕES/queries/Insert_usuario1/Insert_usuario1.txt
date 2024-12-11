@@ -1,0 +1,1 @@
+INSERT INTO usuario (nome,datanascimento,email,endereco,cpf,telefone) VALUES ('{{(Table4.newRow || {}).nome}}','{{(Table4.newRow || {}).datanascimento}}','{{(Table4.newRow || {}).email}}','{{(Table4.newRow || {}).endereco}}','{{(Table4.newRow || {}).cpf}}','{{(Table4.newRow || {}).telefone}}')

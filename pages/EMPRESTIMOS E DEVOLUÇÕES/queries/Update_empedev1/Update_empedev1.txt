@@ -1,0 +1,1 @@
+UPDATE empedev SET usuario= '{{Table3.updatedRow.usuario}}', livro= '{{Table3.updatedRow.livro}}', dataemprestimo= '{{Table3.updatedRow.dataemprestimo}}', dataprevisao= '{{Table3.updatedRow.dataprevisao}}', datadevolucao= '{{Table3.updatedRow.datadevolucao}}' WHERE id= '{{Table3.updatedRow.id}}';

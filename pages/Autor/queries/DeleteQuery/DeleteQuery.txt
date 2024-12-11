@@ -1,2 +1,0 @@
-DELETE FROM autor
-  WHERE id = {{data_table.triggeredRow.id}};

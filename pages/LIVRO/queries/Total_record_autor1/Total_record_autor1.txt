@@ -1,0 +1,1 @@
+SELECT COUNT(*) from autor WHERE nome_autor LIKE '%{{Table1.searchText}}%';

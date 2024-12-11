@@ -1,0 +1,1 @@
+UPDATE autor SET nome_autor= '{{Table1.updatedRow.nome_autor}}', datanascimento= '{{Table1.updatedRow.datanascimento}}', email= '{{Table1.updatedRow.email}}', endereco= '{{Table1.updatedRow.endereco}}', telefone= '{{Table1.updatedRow.telefone}}' WHERE id= '{{Table1.updatedRow.id}}';

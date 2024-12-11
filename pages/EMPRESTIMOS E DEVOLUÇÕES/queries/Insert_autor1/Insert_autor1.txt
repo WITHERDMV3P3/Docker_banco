@@ -1,0 +1,1 @@
+INSERT INTO autor (nome_autor,datanascimento,email,endereco,telefone) VALUES ('{{(Table1.newRow || {}).nome_autor}}','{{(Table1.newRow || {}).datanascimento}}','{{(Table1.newRow || {}).email}}','{{(Table1.newRow || {}).endereco}}','{{(Table1.newRow || {}).telefone}}')
