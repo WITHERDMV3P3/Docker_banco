@@ -1,0 +1,1 @@
+INSERT INTO livro (titulo,subtitulo,editora,datapublicacao,isbn,autor) VALUES ('{{(Table2.newRow || {}).titulo}}','{{(Table2.newRow || {}).subtitulo}}','{{(Table2.newRow || {}).editora}}','{{(Table2.newRow || {}).datapublicacao}}','{{(Table2.newRow || {}).isbn}}','{{(Table2.newRow || {}).autor}}')

@@ -11,6 +11,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Autor",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
